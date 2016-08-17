@@ -9,4 +9,5 @@ Description: Contains data on gas consumption for my 2011 Toyota Sienna
     including date, trip meter reading, amount, gallons purchased, percent ethanol,
     and octane.
 License: MIT
+URL: http://github.com/jarad/ToyotaSiennaGasMileage
 RoxygenNote: 5.0.1

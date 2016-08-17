@@ -1,5 +1,3 @@
-# Run from the data/ directory
-
 library(dplyr)
 
 read_dir = function(path, pattern) {
@@ -12,7 +10,7 @@ read_dir = function(path, pattern) {
 }
 
 # Eventually need to deal with warning messages
-ToyotaSiennaGasMileage = read_dir("../data-raw", "*.csv") %>%
+ToyotaSiennaGasMileage = read_dir("data-raw", "*.csv") %>%
   dplyr::select_("date", "fuel", "cost", "miles", "ethanol", "octane")
 
-save(ToyotaSiennaGasMileage, file="ToyotaSiennaGasMileage.RData")
+save(ToyotaSiennaGasMileage, file="data/ToyotaSiennaGasMileage.RData")

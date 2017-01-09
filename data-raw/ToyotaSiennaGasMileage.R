@@ -15,7 +15,6 @@ read_dir = function(path, pattern, into) {
   plyr::ldply(files, my_read_csv, into = into)
 }
 
-# Eventually need to deal with warning messages
 ToyotaSiennaGasMileage <- read_dir(path = "mileage", 
                                    pattern = "*.csv",
                                    into = c("dir","ymd","extension")) %>%

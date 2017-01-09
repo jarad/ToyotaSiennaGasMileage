@@ -1,0 +1,20 @@
+---
+title: "2011 Toyota Sienna Gas Mileage Through Time"
+author: "Jarad Niemi"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{2011 Toyota Sienna Gas Mileage Through Time}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+library(ggplot2)
+
+ggplot(ToyotaSiennaGasMileage::ToyotaSiennaGasMileage, 
+       aes(x = date, y = miles/fuel)) +
+  geom_point() +
+  geom_smooth(method = "lm", formula = y~x) +
+  theme_bw()
+```

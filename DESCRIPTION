@@ -1,13 +1,20 @@
 Package: ToyotaSiennaGasMileage
 Type: Package
 Title: Contains data on my 2011 Toyota Sienna
-Version: 0.1
-Date: 2016-08-16
+Version: 0.2
+Date: 2017-01-08
 Author: Jarad Niemi
 Maintainer: Jarad Niemi <jaradniemi@gmail.com>
 Description: Contains data on gas consumption for my 2011 Toyota Sienna
     including date, trip meter reading, amount, gallons purchased, percent ethanol,
     and octane.
-License: MIT
+License: GLP-3
+Encoding: UTF-8
+LazyData: true
 URL: http://github.com/jarad/ToyotaSiennaGasMileage
 RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown,
+    dplyr,
+    ggplot2
+VignetteBuilder: knitr

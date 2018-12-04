@@ -22,4 +22,3 @@ amount of \code{fuel}, \code{miles} driven since last refueling, \code{cost}
 of the gasoline, the \code{ethanol} percentage, and the \code{octane}.
 }
 \keyword{datasets}
-

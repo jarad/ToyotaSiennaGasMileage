@@ -1,7 +1,7 @@
 Package: ToyotaSiennaGasMileage
 Type: Package
 Title: Contains data on my 2011 Toyota Sienna
-Version: 0.2
+Version: 0.2.1
 Date: 2017-01-08
 Author: Jarad Niemi
 Maintainer: Jarad Niemi <jaradniemi@gmail.com>
@@ -12,7 +12,7 @@ License: GLP-3
 Encoding: UTF-8
 LazyData: true
 URL: http://github.com/jarad/ToyotaSiennaGasMileage
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
     dplyr,

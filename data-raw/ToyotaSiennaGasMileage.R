@@ -26,4 +26,4 @@ ToyotaSiennaGasMileage <- read_dir(path = "mileage",
          
          octane = as.numeric(octane)) 
 
-devtools::use_data(ToyotaSiennaGasMileage, overwrite=TRUE)
+usethis::use_data(ToyotaSiennaGasMileage, overwrite=TRUE)

@@ -15,6 +15,7 @@ library(ggplot2)
 ggplot(ToyotaSiennaGasMileage::ToyotaSiennaGasMileage, 
        aes(x = date, y = miles/fuel)) +
   geom_point() +
-  geom_smooth(method = "lm", formula = y~x) +
+  geom_smooth(method = "lm", color = "blue", se = FALSE) +
+  geom_smooth(               color = "red",  se = FALSE) +
   theme_bw()
 ```

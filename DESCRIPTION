@@ -11,7 +11,7 @@ License: GLP-3
 Encoding: UTF-8
 LazyData: true
 URL: http://github.com/jarad/ToyotaSiennaGasMileage
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 Suggests: knitr,
     rmarkdown,
     dplyr,

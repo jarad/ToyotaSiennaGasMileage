@@ -1,4 +1,4 @@
-date,cost,fuel,miles,octane,ethanol,notes
+date,USD,gallons,miles,octane,ethanol,notes
 2018/08/11,33.4,11.443,239.2,87,0,Holiday
 2018/08/14,23.77,8.342,218.9,87,0,Holiday
 2018/08/16,34.4,12.483,282,87,0,Holiday

@@ -1,4 +1,4 @@
-date,cost,fuel,miles,octane,ethanol,notes
+date,USD,gallons,miles,octane,ethanol,notes
 2017/07/08,23.66,11.164,232.7,87,10,Sams
 2017/07/11,35.86,16.384,355.7,87,10,Quik Trip
 2017/07/13,35.34,16,384.6,87,10,Kum&Go

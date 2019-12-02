@@ -1,4 +1,4 @@
-date,fuel,cost,miles,ethanol,octane,notes
+date,gallons,USD,miles,ethanol,octane,notes
 2013/09/19,10.241,34.50,198.2,10,89,
 2013/09/22,15.619,50.75,343.9,0,87,
 2013/09/26,15.732,51.43,323.2,10,87,

@@ -1,4 +1,4 @@
-date,fuel,cost,miles,ethanol,octane,notes
+date,gallons,USD,miles,ethanol,octane,notes
 2016/08/01,9.23,19.34,182.8,0,87,unsure about ethanol
 2016/08/10,11.743,24.65,222.1,10,87,
 2016/08/10,10.225,21.87,242.6,0,87,

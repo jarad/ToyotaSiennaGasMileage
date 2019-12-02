@@ -1,4 +1,4 @@
-date,cost,fuel,miles,octane,ethanol,notes
+date,USD,gallons,miles,octane,ethanol,notes
 2018/06/08,44.52,15.357,284.2,87,10,Phillips 66
 2018/06/10,45.11,15.561,341.6,87,0,Loves
 2018/06/18,44.2,16.877,319.2,87,10,Sams

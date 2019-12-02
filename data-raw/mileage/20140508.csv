@@ -1,4 +1,4 @@
-date,fuel,cost,miles,ethanol,octane,notes
+date,gallons,USD,miles,ethanol,octane,notes
 2014/05/08,15.170,54.60,271.3,10,87,
 2014/05/22,14.168,47.87,261.3,10,87,
 2014/06/05,11.894,41.62,243.7,10,87,

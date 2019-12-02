@@ -1,4 +1,4 @@
-date,fuel,cost,miles,ethanol,octane,notes
+date,gallons,USD,miles,ethanol,octane,notes
 2015/04/30,8.338,20.18,325.9,10,87,sams
 2015/05/07,7.087,18.08,120.4,10,87,sams
 2015/05/14,8.554,22.23,142.6,10,87,

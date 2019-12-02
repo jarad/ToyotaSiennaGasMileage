@@ -1,4 +1,4 @@
-date,cost,fuel,miles,octane,ethanol,notes
+date,USD,gallons,miles,octane,ethanol,notes
 2018/11/24,31.5,11.578,194.5,87,0,Holiday
 2018/11/24,26.61,11.184,217.2,87,0,Holiday
 2018/11/30,20.75,15.229,271.2,87,10,Sams

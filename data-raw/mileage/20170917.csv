@@ -1,4 +1,4 @@
-date,cost,fuel,miles,octane,ethanol,notes
+date,USD,gallons,miles,octane,ethanol,notes
 2017/09/17,21.7,8.685,161.8,87,10,Caseys
 2017/09/25,39.17,16.194,306,87,10,Sams
 2017/10/10,39.26,16.231,304.4,87,10,Sams

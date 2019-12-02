@@ -7,9 +7,9 @@
 \format{A data frame with 6 variables:
 \describe{
   \item{date}{date}
-  \item{fuel}{amount of fuel, in gallons}
+  \item{gallons}{amount of fuel, in gallons}
   \item{miles}{miles driven since last refueling}
-  \item{cost}{cost of fuel, in US dollars}
+  \item{USD}{cost of fuel, in US dollars}
   \item{ethanol}{amount of ethanol, percentage}
   \item{octane}{octane rating}
 }}

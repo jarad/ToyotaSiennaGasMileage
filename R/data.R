@@ -12,5 +12,7 @@
 #'   \item{USD}{cost of fuel, in US dollars}
 #'   \item{ethanol}{amount of ethanol, percentage}
 #'   \item{octane}{octane rating}
+#'   \item{notes}{any notes, typically name of gas station}
+#'   \item{inCanada}{indicates whether we got the gas in Canada}
 #' }
 "ToyotaSiennaGasMileage"

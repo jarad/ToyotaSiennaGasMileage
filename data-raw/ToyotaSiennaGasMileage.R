@@ -19,10 +19,13 @@ ToyotaSiennaGasMileage <- read_dir(path = "mileage",
                                    pattern = "*.csv",
                                    into = c("dir","ymd","extension")) %>%
   
-  mutate(gallons = ifelse(is.na(gallons), liters / 3.78541, gallons),
-         USD     = ifelse(is.na(USD),     CAD * 1.32,       USD    )) %>%
+  mutate(
+    inCanada = date > as.Date("2019/09/25"),
+    gallons  = ifelse(inCanada, liters / 3.78541, gallons),
+    USD      = ifelse(inCanada, CAD * 1.32,       USD    ),
+    inCanada = ifelse(inCanada, "Yes", "No")) %>%
   
-  select(date, gallons, USD, miles, ethanol, octane) %>%
+  select(date, gallons, USD, miles, ethanol, octane, notes, inCanada) %>%
   
   mutate(date = as.Date(date),
          

@@ -18,6 +18,10 @@ read_dir = function(path, pattern, into) {
 ToyotaSiennaGasMileage <- read_dir(path = "mileage", 
                                    pattern = "*.csv",
                                    into = c("dir","ymd","extension")) %>%
+  
+  mutate(gallons = ifelse(is.na(gallons), liters * 3.78541, gallons),
+         USD     = ifelse(is.na(USD),     CAD * 1.32,       USD    )) %>%
+  
   select(date, gallons, USD, miles, ethanol, octane) %>%
   
   mutate(date = as.Date(date),

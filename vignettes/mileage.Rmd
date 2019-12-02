@@ -13,7 +13,7 @@ vignette: >
 library(ggplot2)
 
 ggplot(ToyotaSiennaGasMileage::ToyotaSiennaGasMileage, 
-       aes(x = date, y = miles/gallon)) +
+       aes(x = date, y = miles/gallons)) +
   geom_point() +
   geom_smooth(method = "lm", color = "blue", se = FALSE) +
   geom_smooth(               color = "red",  se = FALSE) +

@@ -1,5 +1,6 @@
-library(dplyr)
-library(tidyr)
+library("dplyr")
+library("tidyr")
+library("readr")
 
 my_read_csv = function(f, into) {
   readr::read_csv(f) %>%
@@ -24,6 +25,8 @@ ToyotaSiennaGasMileage <- read_dir(path = "mileage",
          
          ethanol = as.numeric(gsub("%","",ethanol)),
          
-         octane = as.numeric(octane)) 
+         octane = as.numeric(octane),
+         
+         inCanada = ifelse(is.na(USD), TRUE, FALSE))
 
 usethis::use_data(ToyotaSiennaGasMileage, overwrite=TRUE)

@@ -28,3 +28,6 @@ vignettes/*.pdf
 inst/doc
 doc
 Meta
+
+# Mac auxiliary files
+.DS_Store

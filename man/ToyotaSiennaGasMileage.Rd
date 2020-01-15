@@ -4,9 +4,8 @@
 \name{ToyotaSiennaGasMileage}
 \alias{ToyotaSiennaGasMileage}
 \title{ToyotaSiennaGasMileage: An R package contain gas consumption data}
-\format{A data frame with 6 variables:
+\format{A data frame with 8 variables:
 \describe{
-<<<<<<< HEAD
   \item{date}{Date, date of refueling}
   \item{gallons}{numeric, amount of fuel, in gallons}
   \item{miles}{numeric, miles driven since last refueling}
@@ -15,14 +14,6 @@
   \item{octane}{numeric, octane rating}
   \item{notes}{character, any notes, typically brand of gas station}
   \item{inCanada}{logical, TRUE if data were collected in Canada and FALSE otherwise}
-=======
-  \item{date}{date}
-  \item{gallons}{amount of fuel, in gallons}
-  \item{miles}{miles driven since last refueling}
-  \item{USD}{cost of fuel, in US dollars}
-  \item{ethanol}{amount of ethanol, percentage}
-  \item{octane}{octane rating}
->>>>>>> 88d44c6dac8f2372977837a816c34d035a076871
 }}
 \source{
 <https://github.com/jarad/ToyotaSiennaGasMileage>

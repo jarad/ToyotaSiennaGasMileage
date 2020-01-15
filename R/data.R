@@ -5,7 +5,7 @@
 #' of the gasoline, the \code{ethanol} percentage, and the \code{octane} were
 #' recorded.  
 #' 
-#' @format A data frame with 6 variables:
+#' @format A data frame with 8 variables:
 #' \describe{
 #'   \item{date}{Date, date of refueling}
 #'   \item{gallons}{numeric, amount of fuel, in gallons}

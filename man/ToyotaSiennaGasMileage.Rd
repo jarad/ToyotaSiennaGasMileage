@@ -37,7 +37,7 @@ recorded.
 The raw manually recordings are available as scans at the url below. These
 data were digitized and collated to form the full data set. 
 
-During a period of time in 2019-2020, the data were recorded in Canada and
+From September 2019 to July 2020, the data were recorded in Canada and
 therefore the raw data are in liters (amount of fuel) and Canadian dollars
 (cost). Liters were converted to gallons. Canadian dollars were converted
 to US dollars using a common exchange rate (as opposed to that days exchange

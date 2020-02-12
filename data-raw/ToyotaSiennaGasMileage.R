@@ -19,12 +19,10 @@ read_dir = function(path, pattern, into) {
 ToyotaSiennaGasMileage <- read_dir(path = "mileage", 
                                    pattern = "*.csv",
                                    into = c("dir","ymd","extension")) %>%
-  
   mutate(
-    inCanada = date > as.Date("2019/09/25"),
+    inCanada = ifelse(is.na(USD), TRUE, FALSE),
     gallons  = ifelse(inCanada, liters / 3.78541, gallons),
-    USD      = ifelse(inCanada, CAD * 1.32,       USD    ),
-    inCanada = ifelse(inCanada, "Yes", "No")) %>%
+    USD      = ifelse(inCanada, CAD * 1.32,       USD    )) %>%
   
   select(date, gallons, USD, miles, ethanol, octane, notes, inCanada) %>%
   
@@ -32,8 +30,8 @@ ToyotaSiennaGasMileage <- read_dir(path = "mileage",
          
          ethanol = as.numeric(gsub("%","",ethanol)),
          
-         octane = as.numeric(octane),
-         
-         inCanada = ifelse(is.na(USD), TRUE, FALSE))
+         octane = as.numeric(octane)) %>%
+  
+  arrange(date)
 
 usethis::use_data(ToyotaSiennaGasMileage, overwrite=TRUE)

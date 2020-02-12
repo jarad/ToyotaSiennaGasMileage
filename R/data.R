@@ -11,7 +11,7 @@
 #'   \item{gallons}{numeric, amount of fuel, in gallons}
 #'   \item{miles}{numeric, miles driven since last refueling}
 #'   \item{USD}{numeric, cost of fuel, in US dollars}
-#'   \item{ethanol}{numeric, amount of ethanol, percentage}
+#'   \item{ethanol}{numeric, ethanol percentage}
 #'   \item{octane}{numeric, octane rating}
 #'   \item{notes}{character, any notes, typically brand of gas station}
 #'   \item{inCanada}{logical, TRUE if data were collected in Canada and FALSE otherwise}

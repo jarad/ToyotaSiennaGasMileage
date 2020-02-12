@@ -23,7 +23,7 @@ ToyotaSiennaGasMileage
 }
 \description{
 The ToyotaSiennaGasMileage package contains gas consumption and cost data
-for a 2011 Toyota Sienna. During each refuel, gas was dispensed until 
+for a 2011 Toyota Sienna XLE. During each refuel, gas was dispensed until 
 automatically stopping. At that point, the cost, amount of fuel, ethanol
 content, octane, and brand were recorded. In addition, the mileage since last
 refuel was recorded on a trip meter which was subsequently reset.

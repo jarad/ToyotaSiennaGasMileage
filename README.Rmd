@@ -4,7 +4,14 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # ToyotaSiennaGasMileage
 
@@ -43,17 +50,13 @@ devtools::install_github("jarad/ToyotaSiennaGasMileage")
 
 Here is a graphical display of the data.
 
-
-```r
+```{r example}
 library(ToyotaSiennaGasMileage)
 library(ggplot2)
 
 ggplot(ToyotaSiennaGasMileage, 
        aes(x = date, y = miles/gallons)) +
   geom_point()
-#> Warning: Removed 8 rows containing missing values (geom_point).
 ```
-
-<img src="man/figures/README-example-1.png" title="plot of chunk example" alt="plot of chunk example" width="100%" />
 
 

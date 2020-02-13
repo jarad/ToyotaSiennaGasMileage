@@ -17,7 +17,7 @@
 #' 
 #' @source <https://github.com/jarad/ToyotaSiennaGasMileage>
 #' 
-#' @docType ToyotaSiennaGasMileage
+#' @docType package
 #' @name ToyotaSiennaGasMileage
 #' 
 NULL

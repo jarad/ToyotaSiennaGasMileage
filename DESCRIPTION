@@ -1,7 +1,7 @@
 Package: ToyotaSiennaGasMileage
 Type: Package
 Title: Contains gas consumption data on a 2011 Toyota Sienna
-Version: 0.2.8
+Version: 0.2.9
 Authors@R: person("Jarad", "Niemi", email = "jaradniemi@gmail.com",
   role = c("aut", "cre"))
 Description: Contains data on gas consumption for a 2011 Toyota Sienna
@@ -12,7 +12,7 @@ Encoding: UTF-8
 LazyData: true
 URL: http://github.com/jarad/ToyotaSiennaGasMileage
 BugReports: https://github.com/jarad/ToyotaSiennaGasMileage/issues
-RoxygenNote: 7.0.1
+RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 Suggests: knitr,
     rmarkdown,

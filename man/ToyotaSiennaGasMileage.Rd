@@ -13,8 +13,9 @@ A data frame with 8 variables:
   \item{USD}{numeric, cost of fuel, in US dollars}
   \item{ethanol}{numeric, ethanol percentage}
   \item{octane}{numeric, octane rating}
-  \item{notes}{character, any notes, typically brand of gas station}
+  \item{notes}{character, any notes, typically brand of gas station (before station was an option)}
   \item{inCanada}{logical, TRUE if data were collected in Canada and FALSE otherwise}
+  \item{station}{character, name and location of gas station}
 }
 }
 \source{

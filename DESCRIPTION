@@ -1,7 +1,7 @@
 Package: ToyotaSiennaGasMileage
 Type: Package
 Title: Contains gas consumption data on a 2011 Toyota Sienna
-Version: 0.2.9
+Version: 0.2.10
 Authors@R: person("Jarad", "Niemi", email = "jaradniemi@gmail.com",
   role = c("aut", "cre"))
 Description: Contains data on gas consumption for a 2011 Toyota Sienna
